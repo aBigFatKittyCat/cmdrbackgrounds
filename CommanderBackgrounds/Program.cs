@@ -3,8 +3,10 @@ using CommanderBackgrounds;
 
 var client = new ScryFallClient();
 
-var commanders = await client.SearchCards("is:commander o:\"choose a background\" -\"faceless one\"");
-var backgrounds = await client.SearchCards("t:background -\"faceless one\"");
+var commanders = await client.SearchCards("is%3Acommander+o%3A\"choose + a + background\"+-\"faceless + one\"");
+var backgrounds = await client.SearchCards("t%3Abackground+-\"faceless + one\"");
+
+var colors = new string[] { "B", "W", "U", "R", "G" };
 
 Console.WriteLine("Commanders:");
 Console.WriteLine("------------");

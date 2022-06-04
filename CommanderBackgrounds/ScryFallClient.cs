@@ -24,12 +24,8 @@ namespace CommanderBackgrounds
 
         public async Task<CardList> SearchCards(string searchQuery)
         {
-            var query = HttpUtility.ParseQueryString(string.Empty);
-            query["q"] = HttpUtility.UrlEncode(searchQuery);
 
-            var queryString = query.ToString();
-
-            CardList result = await _client.GetFromJsonAsync<CardList>("/cards/search?" + queryString) ?? new();
+            CardList result = await _client.GetFromJsonAsync<CardList>("cards/search?q=" + searchQuery) ?? new();
 
             return result;
         }
