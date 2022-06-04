@@ -25,3 +25,6 @@ CommanderBackgrounds/obj/Debug/net6.0/CommanderBackgrounds.genruntimeconfig.cach
 CommanderBackgrounds/obj/Debug/net6.0/CommanderBackgrounds.pdb
 CommanderBackgrounds/obj/Debug/net6.0/ref/CommanderBackgrounds.dll
 CommanderBackgrounds/obj/Debug/net6.0/refint/CommanderBackgrounds.dll
+CommanderBackgrounds/bin/Debug/net6.0/CsvHelper.dll
+.gitignore
+CommanderBackgrounds/obj/Debug/net6.0/CommanderBackgrounds.csproj.CopyComplete
