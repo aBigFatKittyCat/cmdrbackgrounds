@@ -1,0 +1,14 @@
+.vscode/launch.json
+.vscode/tasks.json
+CommanderBackgrounds/obj/CommanderBackgrounds.csproj.nuget.dgspec.json
+CommanderBackgrounds/obj/CommanderBackgrounds.csproj.nuget.g.props
+CommanderBackgrounds/obj/CommanderBackgrounds.csproj.nuget.g.targets
+CommanderBackgrounds/obj/project.assets.json
+CommanderBackgrounds/obj/project.nuget.cache
+CommanderBackgrounds/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+CommanderBackgrounds/obj/Debug/net6.0/CommanderBackgrounds.AssemblyInfo.cs
+CommanderBackgrounds/obj/Debug/net6.0/CommanderBackgrounds.AssemblyInfoInputs.cache
+CommanderBackgrounds/obj/Debug/net6.0/CommanderBackgrounds.assets.cache
+CommanderBackgrounds/obj/Debug/net6.0/CommanderBackgrounds.csproj.AssemblyReference.cache
+CommanderBackgrounds/obj/Debug/net6.0/CommanderBackgrounds.GlobalUsings.g.cs
+CommanderBackgrounds/obj/Debug/net6.0/CommanderBackgrounds.GeneratedMSBuildEditorConfig.editorconfig
